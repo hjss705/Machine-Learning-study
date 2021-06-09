@@ -1,0 +1,16 @@
+/usr/bin/env: ‘python3\r’: 에러 발생시,
+
+
+
+
+/sample/test-cgi/cgi-bin# chmod 777 ml21.py
+
+apt-get install dos2unix
+
+/sample/test-cgi/cgi-bin# dos2unix ml21.py 
+
+/sample/test-cgi/cgi-bin# chmod 555 ml21.py
+
+/sample/test-cgi/cgi-bin# cd ..
+
+/sample/test-cgi# python3 -m http.server --cgi 8080 
